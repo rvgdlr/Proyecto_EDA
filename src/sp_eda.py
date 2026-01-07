@@ -57,3 +57,8 @@ None
         print(col.upper())
         print(df[col].value_counts())
         print('--------')
+    
+    print('--------------')
+
+    print('ESTADÍSTICOS NUMÉRICAS')
+    display(df.descibe().T)
